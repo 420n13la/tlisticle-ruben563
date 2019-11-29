@@ -1,0 +1,98 @@
+html,body{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+header{
+  color:white;
+  text-align:center;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(https://i.postimg.cc/8z6qcMJL/header.png);
+  background-repeat:none;
+  background-size:cover;
+  width:auto;
+  border:solid 5px white;
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+h1{
+  font-family: 'Miriam Libre', sans-serif;
+  font-size:55px
+}
+
+.profil{
+  border-radius: 100%;
+  border:solid 1px white;
+  width:66%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content:center;
+  width: 100px;
+  margin-top:-50px;
+}  
+
+figcaption{
+  width:66%;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  
+}
+.caption{
+  font-family: 'Alice', serif;
+  font-size:30px;
+}
+.border{
+  border-bottom:solid 2px grey;
+  padding-bottom:10px;
+  width:15%;
+}
+
+.wrapper{
+  width:66%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+h2{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size:45px;
+  font-weight:bold;
+  margin-bottom:
+}
+  
+.m2{
+  font-style:italic;
+  background-color:#FDD835;
+  padding:3px;
+  margin-top:20px;
+}
+p{
+  font-family: 'Alice', serif;
+  font-size:23px;
+  line-height:32px;
+  color:rgb(51,51,51);
+  margin-bottom:20px;
+}
+
+a{
+  color:#42b4d6;
+  text-decoration:none;
+  margin-bottom:20px;
+}
+a:hover{
+  text-decoration:underline;
+}
+.img{
+  width:100%;
+  display: block;
+  margin-bottom:120px;
+}
+.num{
+  color:rgba(0, 0, 0, 0.25);
+}
